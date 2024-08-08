@@ -1,0 +1,139 @@
+* NGSPICE file created from tt_um_rburt16_bias_generator.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_8ND94H a_50_n364# w_n246_n584# a_n108_n364# a_n50_n461#
+X0 a_50_n364# a_n50_n461# a_n108_n364# w_n246_n584# sky130_fd_pr__pfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.5
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_L7EPZQ a_100_n836# w_n296_n984# a_n158_n836# a_n100_n862#
+X0 a_100_n836# a_n100_n862# a_n158_n836# w_n296_n984# sky130_fd_pr__pfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=1
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_LBMMZQ a_100_n836# w_n296_n984# a_n158_n836# a_n100_n862#
+X0 a_100_n836# a_n100_n862# a_n158_n836# w_n296_n984# sky130_fd_pr__pfet_01v8_lvt ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=1
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_GQTHCS a_800_n78# a_n800_n104# a_n858_n78# w_n996_n226#
+X0 a_800_n78# a_n800_n104# a_n858_n78# w_n996_n226# sky130_fd_pr__pfet_01v8 ad=0.1218 pd=1.42 as=0.1218 ps=1.42 w=0.42 l=8
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_N4YVNS a_800_n73# a_n800_n99# a_n858_n73# a_n960_n185#
+X0 a_800_n73# a_n800_n99# a_n858_n73# a_n960_n185# sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.1218 ps=1.42 w=0.42 l=8
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_QGAK58 a_n158_n831# a_n260_n943# a_100_n831# a_n100_n857#
+X0 a_100_n831# a_n100_n857# a_n158_n831# a_n260_n943# sky130_fd_pr__nfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=1
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_BMAEVH a_100_n836# w_n296_n984# a_n158_n836# a_n100_n862#
+X0 a_100_n836# a_n100_n862# a_n158_n836# w_n296_n984# sky130_fd_pr__pfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=1
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_92UKLN a_n158_n831# a_n260_n943# a_100_n831# a_n100_n857#
+X0 a_100_n831# a_n100_n857# a_n158_n831# a_n260_n943# sky130_fd_pr__nfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=1
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_798YF4 a_n1310_n157# a_1310_n131# a_n1368_n131# a_n1470_n243#
+X0 a_1310_n131# a_n1310_n157# a_n1368_n131# a_n1470_n243# sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=13.1
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_XLZA2Q a_n158_n831# a_n260_n943# a_100_n831# a_n100_n857#
+X0 a_100_n831# a_n100_n857# a_n158_n831# a_n260_n943# sky130_fd_pr__nfet_01v8_lvt ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=1
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_EE6UX6 a_800_n131# a_n800_n157# a_n858_n131# a_n960_n243#
+X0 a_800_n131# a_n800_n157# a_n858_n131# a_n960_n243# sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=8
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_X6KF3T a_n158_n831# a_n260_n943# a_100_n831# a_n100_n857#
+X0 a_100_n831# a_n100_n857# a_n158_n831# a_n260_n943# sky130_fd_pr__nfet_01v8_lvt ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=1
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_LHEPZQ a_100_n836# w_n296_n984# a_n158_n836# a_n100_n862#
+X0 a_100_n836# a_n100_n862# a_n158_n836# w_n296_n984# sky130_fd_pr__pfet_01v8_lvt ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=1
+.ends
+
+.subckt bias_generator m1_8340_6460# m1_3200_5840# VSUBS
+Xsky130_fd_pr__pfet_01v8_L7EPZQ_0 m1_7900_4600# m1_3200_5840# m1_3200_5840# m1_5740_4600#
++ sky130_fd_pr__pfet_01v8_L7EPZQ
+XXM12 m1_5740_4600# m1_3200_5840# m1_5260_4600# m1_5740_4600# sky130_fd_pr__pfet_01v8_lvt_LBMMZQ
+XXM13 m1_8880_2800# m1_3200_5840# m1_6940_4620# m1_5740_4600# sky130_fd_pr__pfet_01v8_lvt_LBMMZQ
+XXM16 m1_9560_5780# m1_3400_4220# m1_3200_5840# m1_3200_5840# sky130_fd_pr__pfet_01v8_GQTHCS
+XXM18 VSUBS m1_9560_5780# m1_5740_4600# VSUBS sky130_fd_pr__nfet_01v8_N4YVNS
+Xsky130_fd_pr__nfet_01v8_QGAK58_0 m1_9560_5780# VSUBS VSUBS m1_3400_4220# sky130_fd_pr__nfet_01v8_QGAK58
+Xsky130_fd_pr__pfet_01v8_lvt_LBMMZQ_0 m1_8340_6460# m1_3200_5840# m1_7900_4600# m1_5740_4600#
++ sky130_fd_pr__pfet_01v8_lvt_LBMMZQ
+XXM3 m1_3580_4600# m1_3200_5840# m1_3200_5840# m1_5740_4600# sky130_fd_pr__pfet_01v8_BMAEVH
+XXM4 m1_5260_4600# m1_3200_5840# m1_3200_5840# m1_5740_4600# sky130_fd_pr__pfet_01v8_L7EPZQ
+XXM6 m1_6940_4620# m1_3200_5840# m1_3200_5840# m1_5740_4600# sky130_fd_pr__pfet_01v8_L7EPZQ
+Xsky130_fd_pr__nfet_01v8_92UKLN_1 m1_3400_4220# VSUBS VSUBS m1_3400_4220# sky130_fd_pr__nfet_01v8_92UKLN
+Xsky130_fd_pr__nfet_01v8_92UKLN_0 m1_3280_4120# VSUBS m1_3580_2360# m1_3400_4220#
++ sky130_fd_pr__nfet_01v8_92UKLN
+XXM7 m1_8880_2800# m1_8880_2800# m1_7680_3620# VSUBS sky130_fd_pr__nfet_01v8_798YF4
+Xsky130_fd_pr__nfet_01v8_92UKLN_2 m1_3280_4120# VSUBS m1_3580_2360# m1_3400_4220#
++ sky130_fd_pr__nfet_01v8_92UKLN
+XXM9 m1_4380_6140# VSUBS m1_3400_4220# m1_4380_6140# sky130_fd_pr__nfet_01v8_lvt_XLZA2Q
+XXM8 m1_3580_2360# m1_8880_2800# m1_7680_3620# VSUBS sky130_fd_pr__nfet_01v8_EE6UX6
+Xsky130_fd_pr__nfet_01v8_92UKLN_3 m1_3280_4120# VSUBS m1_3580_2360# m1_3400_4220#
++ sky130_fd_pr__nfet_01v8_92UKLN
+Xsky130_fd_pr__nfet_01v8_EE6UX6_1 m1_3580_2360# m1_8880_2800# VSUBS VSUBS sky130_fd_pr__nfet_01v8_EE6UX6
+Xsky130_fd_pr__nfet_01v8_EE6UX6_0 m1_3580_2360# m1_8880_2800# VSUBS VSUBS sky130_fd_pr__nfet_01v8_EE6UX6
+Xsky130_fd_pr__nfet_01v8_92UKLN_4 m1_3280_4120# VSUBS m1_3580_2360# m1_3400_4220#
++ sky130_fd_pr__nfet_01v8_92UKLN
+Xsky130_fd_pr__nfet_01v8_92UKLN_5 m1_3280_4120# VSUBS m1_3580_2360# m1_3400_4220#
++ sky130_fd_pr__nfet_01v8_92UKLN
+Xsky130_fd_pr__nfet_01v8_92UKLN_6 m1_3280_4120# VSUBS m1_3580_2360# m1_3400_4220#
++ sky130_fd_pr__nfet_01v8_92UKLN
+Xsky130_fd_pr__nfet_01v8_92UKLN_7 m1_3280_4120# VSUBS m1_3580_2360# m1_3400_4220#
++ sky130_fd_pr__nfet_01v8_92UKLN
+Xsky130_fd_pr__nfet_01v8_92UKLN_8 m1_3280_4120# VSUBS m1_3580_2360# m1_3400_4220#
++ sky130_fd_pr__nfet_01v8_92UKLN
+XXM10 m1_5740_4600# VSUBS m1_3280_4120# m1_4380_6140# sky130_fd_pr__nfet_01v8_lvt_X6KF3T
+XXM11 m1_4380_6140# m1_3200_5840# m1_3580_4600# m1_5740_4600# sky130_fd_pr__pfet_01v8_lvt_LHEPZQ
+.ends
+
+.subckt tt_um_rburt16_bias_generator clk ena rst_n ua[0] ua[1] ua[2] ua[3] ua[4] ua[5]
++ ua[6] ua[7] ui_in[0] ui_in[1] ui_in[2] ui_in[3] ui_in[4] ui_in[5] ui_in[6] ui_in[7]
++ uio_in[0] uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5] uio_in[6] uio_in[7]
++ VDPWR VGND
+Xsky130_fd_pr__pfet_01v8_8ND94H_1 m1_6680_5100# VDPWR ua[0] ui_in[0] sky130_fd_pr__pfet_01v8_8ND94H
+Xsky130_fd_pr__pfet_01v8_8ND94H_2 m1_6680_10300# VDPWR ua[0] ui_in[1] sky130_fd_pr__pfet_01v8_8ND94H
+Xsky130_fd_pr__pfet_01v8_8ND94H_3 m1_6680_20700# VDPWR ua[0] ui_in[3] sky130_fd_pr__pfet_01v8_8ND94H
+Xsky130_fd_pr__pfet_01v8_8ND94H_10 m1_18900_2960# VDPWR ua[0] uio_in[4] sky130_fd_pr__pfet_01v8_8ND94H
+Xsky130_fd_pr__pfet_01v8_8ND94H_4 m1_6680_31100# VDPWR ua[0] ui_in[5] sky130_fd_pr__pfet_01v8_8ND94H
+Xsky130_fd_pr__pfet_01v8_8ND94H_5 m1_6680_25900# VDPWR ua[0] ui_in[4] sky130_fd_pr__pfet_01v8_8ND94H
+Xbias_generator_0 m1_6680_5100# VDPWR VGND bias_generator
+Xsky130_fd_pr__pfet_01v8_8ND94H_11 m1_18900_11360# VDPWR ua[0] uio_in[5] sky130_fd_pr__pfet_01v8_8ND94H
+Xsky130_fd_pr__pfet_01v8_8ND94H_6 m1_6680_36300# VDPWR ua[0] ui_in[6] sky130_fd_pr__pfet_01v8_8ND94H
+Xbias_generator_1 m1_6680_10300# VDPWR VGND bias_generator
+Xsky130_fd_pr__pfet_01v8_8ND94H_7 m1_6680_41500# VDPWR ua[0] ui_in[7] sky130_fd_pr__pfet_01v8_8ND94H
+Xsky130_fd_pr__pfet_01v8_8ND94H_12 m1_13700_19760# VDPWR ua[0] uio_in[2] sky130_fd_pr__pfet_01v8_8ND94H
+Xbias_generator_2 m1_6680_15500# VDPWR VGND bias_generator
+Xsky130_fd_pr__pfet_01v8_8ND94H_13 m1_13700_28160# VDPWR ua[0] uio_in[3] sky130_fd_pr__pfet_01v8_8ND94H
+Xbias_generator_3 m1_6680_20700# VDPWR VGND bias_generator
+Xbias_generator_4 m1_6680_25900# VDPWR VGND bias_generator
+Xsky130_fd_pr__pfet_01v8_8ND94H_8 m1_13700_2960# VDPWR ua[0] uio_in[0] sky130_fd_pr__pfet_01v8_8ND94H
+Xsky130_fd_pr__pfet_01v8_8ND94H_14 m1_18900_19760# VDPWR ua[0] uio_in[6] sky130_fd_pr__pfet_01v8_8ND94H
+Xbias_generator_5 m1_6680_31100# VDPWR VGND bias_generator
+Xsky130_fd_pr__pfet_01v8_8ND94H_9 m1_13700_11360# VDPWR ua[0] uio_in[1] sky130_fd_pr__pfet_01v8_8ND94H
+Xsky130_fd_pr__pfet_01v8_8ND94H_15 m1_18900_28160# VDPWR ua[0] uio_in[7] sky130_fd_pr__pfet_01v8_8ND94H
+Xbias_generator_6 m1_6680_36300# VDPWR VGND bias_generator
+Xbias_generator_7 m1_6680_41500# VDPWR VGND bias_generator
+Xbias_generator_8 m1_13700_2960# VDPWR VGND bias_generator
+Xbias_generator_9 m1_13700_11360# VDPWR VGND bias_generator
+Xbias_generator_11 m1_13700_28160# VDPWR VGND bias_generator
+Xbias_generator_10 m1_13700_19760# VDPWR VGND bias_generator
+Xbias_generator_12 m1_18900_2960# VDPWR VGND bias_generator
+Xbias_generator_13 m1_18900_11360# VDPWR VGND bias_generator
+Xbias_generator_14 m1_18900_19760# VDPWR VGND bias_generator
+Xbias_generator_15 m1_18900_28160# VDPWR VGND bias_generator
+Xsky130_fd_pr__pfet_01v8_8ND94H_0 m1_6680_15500# VDPWR ua[0] ui_in[2] sky130_fd_pr__pfet_01v8_8ND94H
+R0 ui_in[7] ui_in[7] sky130_fd_pr__res_generic_m3 w=327.675 l=4
+R1 ui_in[2] ui_in[2] sky130_fd_pr__res_generic_m3 w=327.675 l=4
+R2 ui_in[3] ui_in[3] sky130_fd_pr__res_generic_m3 w=327.675 l=4
+R3 ui_in[4] ui_in[4] sky130_fd_pr__res_generic_m3 w=327.675 l=4
+R4 ui_in[5] ui_in[5] sky130_fd_pr__res_generic_m3 w=327.675 l=4
+R5 ui_in[6] ui_in[6] sky130_fd_pr__res_generic_m3 w=327.675 l=4
+R6 ui_in[0] ui_in[0] sky130_fd_pr__res_generic_m3 w=327.675 l=4
+R7 ui_in[1] ui_in[1] sky130_fd_pr__res_generic_m3 w=327.675 l=3.6
+.ends
+

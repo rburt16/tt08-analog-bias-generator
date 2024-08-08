@@ -1,0 +1,59 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__nfet_01v8_lvt are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8_lvt and sky130_fd_pr__nfet_01v8_lvt are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_lvt are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8_lvt and sky130_fd_pr__pfet_01v8_lvt are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_L7EPZQ in circuit bias_generator (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_LBMMZQ in circuit bias_generator (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_GQTHCS in circuit bias_generator (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_N4YVNS in circuit bias_generator (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_QGAK58 in circuit bias_generator (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_BMAEVH in circuit bias_generator (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_92UKLN in circuit bias_generator (0)(9 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_798YF4 in circuit bias_generator (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_XLZA2Q in circuit bias_generator (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_EE6UX6 in circuit bias_generator (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_X6KF3T in circuit bias_generator (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_LHEPZQ in circuit bias_generator (0)(1 instance)
+
+Class bias_generator (0):  Merged 8 parallel devices.
+Subcircuit summary:
+Circuit 1: bias_generator                  |Circuit 2: bias_generator                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (5)                |sky130_fd_pr__pfet_01v8 (5)                
+sky130_fd_pr__pfet_01v8_lvt (4)            |sky130_fd_pr__pfet_01v8_lvt (4)            
+sky130_fd_pr__nfet_01v8 (15->7)            |sky130_fd_pr__nfet_01v8 (15->7)            
+sky130_fd_pr__nfet_01v8_lvt (2)            |sky130_fd_pr__nfet_01v8_lvt (2)            
+Number of devices: 18                      |Number of devices: 18                      
+Number of nets: 15                         |Number of nets: 15                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: bias_generator                  |Circuit 2: bias_generator                  
+-------------------------------------------|-------------------------------------------
+m1_8340_6460#                              |i_out **Mismatch**                         
+VSUBS                                      |VGND **Mismatch**                          
+m1_3200_5840#                              |VDPWR **Mismatch**                         
+---------------------------------------------------------------------------------------
+Cell pin lists for bias_generator and bias_generator altered to match.
+Device classes bias_generator and bias_generator are equivalent.
+
+Flattening instances of bias_generator in cell tt08_analog_bias_generator_xschem.spice (1) makes a better match
+Making another compare attempt.
+
+Equate elements:  no current cell.
+Device classes tt_um_rburt16_bias_generator.spice and tt08_analog_bias_generator_xschem.spice are equivalent.
+
+Final result: Top level cell failed pin matching.

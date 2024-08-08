@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+A test chip to evaluate mismatch of a simple CMOS beta multiplier 1uA current source. Eight identical cells are oriented in one direction and another eight cells are rotated 90 degrees for evaluation.
 
 ## How to test
 
-Explain how to use your project
+All current outputs (i_out) are wired together and brought out on ua[0]. Disable individual cells 0 -> 7 with ui[0] -> ui[7] and cells 8 -> 15 with uio[0] -> uio[7].
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+None
