@@ -17,4 +17,4 @@ All current outputs (i_out) are wired together and brought out on ua[0]. Disable
 
 ## External hardware
 
-None
+Precision current measurement setup.
